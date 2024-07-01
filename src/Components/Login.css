@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1277.3375141584004 201.99746685772914L1272.4585428313444 62.28200817607228 1132.7430841496875 67.16097950312817 1137.6220554767435 206.87643818478503z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1302.0598423614072 496.3267429870085L1422.4990449506204 437.58461894336335 1243.317718317762 375.8875403977954z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M446.133%2c242.239C479.559%2c240.905%2c501.747%2c211.763%2c518.482%2c182.797C535.228%2c153.811%2c549.324%2c120.066%2c533.874%2c90.369C517.49%2c58.876%2c481.57%2c41.626%2c446.133%2c43.732C413.761%2c45.656%2c390.869%2c71.675%2c374.768%2c99.824C358.813%2c127.717%2c348.642%2c160.272%2c363.038%2c189.001C378.833%2c220.522%2c410.904%2c243.645%2c446.133%2c242.239' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1120.173%2c189.841C1157.972%2c190.017%2c1185.069%2c157.285%2c1203%2c124.01C1219.834%2c92.769%2c1225.423%2c56.36%2c1209.071%2c24.864C1191.379%2c-9.214%2c1158.568%2c-35.917%2c1120.173%2c-35.533C1082.305%2c-35.155%2c1051.593%2c-7.08%2c1034.299%2c26.611C1018.517%2c57.356%2c1022.582%2c92.659%2c1038.672%2c123.244C1056.179%2c156.522%2c1082.571%2c189.666%2c1120.173%2c189.841' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1086.1255314464652 518.8697467773981L1038.7624293814854 417.2992466222484 937.1919292263358 464.66234868722813 984.5550312913155 566.2328488423778z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M144.563%2c184.527C184.428%2c185.771%2c219.021%2c158.265%2c237.75%2c123.052C255.364%2c89.935%2c252.535%2c50.215%2c233.047%2c18.165C214.33%2c-12.618%2c180.564%2c-31.579%2c144.563%2c-30.206C110.693%2c-28.914%2c83.744%2c-5%2c67.047%2c24.497C50.638%2c53.486%2c46.411%2c87.556%2c60.932%2c117.535C77.62%2c151.988%2c106.3%2c183.333%2c144.563%2c184.527' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+form {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin: 25px;
+}
+
+form h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+form .input-box {
+    margin-top: 10px;
+}
+
+.input-box .field {
+    width: 95%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+}
+
+.input-box .field.mess {
+    height: 150px;
+    resize: none;
+}
+
+form button {
+    width: 100%;
+    height: 55px;
+    background: blue;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 25px;
+}
